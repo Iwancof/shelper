@@ -48,8 +48,10 @@ meta { model: anthropic/claude-3.7-sonnet:thinking, input: 4362, output: 1033, c
 # Install
 
 ```bash
-git clone https://this/repo.git
+git clone https://github.com/Iwancof/shelper.git
 uv tool install . -e
+
+export OPENROUTER_KEY=sk-...
 ```
 
 # TODO
