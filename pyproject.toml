@@ -1,0 +1,20 @@
+[project]
+name = "shelper"
+version = "0.1.0"
+description = "Agenting shell helper"
+readme = "README.md"
+authors = [
+    { name = "Iwancof", email = "rock.iwancof@gmail.com" }
+]
+requires-python = ">=3.13.1"
+dependencies = [
+    "libtmux>=0.46.1",
+    "openai-agents>=0.0.14",
+]
+
+[project.scripts]
+shelper = "shelper:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
